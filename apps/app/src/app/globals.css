@@ -12,3 +12,23 @@ html {
   --toastify-color-progress-error: hsl(var(--nextui-danger));
   --toastify-icon-color-error: hsl(var(--nextui-danger));
 }
+
+
+/* Homepage Styles */
+@import "tailwindcss";
+
+/* Importer les polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Suez+One&display=swap');
+
+/* Configuration du thème Tailwind 4 */
+@theme {
+  /* Définir les polices personnalisées */
+  --font-family-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-family-display: 'Suez One', serif;
+  --font-family-body: 'Hind Siliguri', sans-serif;
+}
+
+/* Appliquer Suez One par défaut */
+html, body {
+  font-family: var(--font-family-display);
+}
