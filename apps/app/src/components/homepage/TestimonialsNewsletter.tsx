@@ -44,7 +44,7 @@ export function TestimonialsSection() {
 
   return (
     <section className="py-16 sm:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">Impossible d'utiliser JSX, sauf si l'indicateur '--jsx' est fourni.ts(17004)
         <motion.div
           initial="hidden"
           whileInView="visible"

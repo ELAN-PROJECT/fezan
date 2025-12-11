@@ -1,7 +1,0 @@
-{
-  "name": "@elan/tsconfig",
-  "dependencies": {
-    "eslint-config-custom": "*",
-    "custom-prettier-config": "*"
-  }
-}

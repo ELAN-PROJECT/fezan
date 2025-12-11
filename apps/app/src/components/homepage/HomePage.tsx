@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, ChevronDown, Sparkles } from 'lucide-react'
 import Link from 'next/link'
-import { Loading } from './Loading'
-import { Navigation } from './Navigation'
+import Loading from './Loading'
+import Navigation  from './Navigation'
 import { AboutSection, FeaturesSection } from './HomeSections'
 import { TestimonialsSection, NewsletterSection } from './TestimonialsNewsletter'
-import { Footer } from './Footer'
+import  Footer  from './Footer'
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
